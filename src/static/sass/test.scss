@@ -1,0 +1,10 @@
+// base
+@import 'base/reset';    // 重置css样式
+@import 'base/variable'; // 变量
+@import 'base/common';   // 公共
+
+// module
+@import "module/_list";
+
+// pages
+@import 'pages/_test';   // 帖子页面

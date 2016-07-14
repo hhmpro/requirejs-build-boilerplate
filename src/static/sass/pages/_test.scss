@@ -1,0 +1,242 @@
+.wraper{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 4.5rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.config{
+  width: 100%;
+  height: auto;
+}
+body{
+  color: #333333;
+}
+.head-title{
+  width: 100%;
+  padding:1.2rem 1rem 1rem 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.pt-article{
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding: 0 1rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  .pt-art{
+    height: 22.5rem;
+    overflow: hidden;
+    img{
+      width: 100%;
+      display: inline-block;
+    }
+    p{
+      width: 100%;
+      line-height: 2.4rem;
+      padding: .5rem 0;
+      font-size: 1.2rem;
+      margin: 0;
+      color: #333;
+      img{
+        width: 1.2rem;
+        height: 1.2rem;
+        display: inline-block;
+      }
+    }
+  }
+}
+.pt-personage{
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  padding-bottom: 0.75rem;
+  img{
+    width: 3rem;
+    display: block;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .pt-kit{
+    padding-left: 1rem;
+    span{
+      height: 1.8rem;
+      color: #666;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      display: block;
+    }
+    time{
+      height: 1.2rem;
+      color: #999;
+      font-size: .8rem;
+      line-height: 1.2rem;
+      display: block;
+    }
+  }
+
+}
+
+.pt-details{
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 2.4rem;
+  font-size: 1.0rem;
+  color: #2a90d7;
+}
+.pt-btn{
+  width: 100%;
+  height: 4rem;
+  border: 1px solid #f85959;
+  border-radius: 4px;
+  line-height: 4rem;
+  text-align: center;
+  margin: 1rem auto;
+  a{
+    font-size: 1.4rem;
+    color: #f85959;
+    text-decoration: none;
+  }
+}
+.tt-split{
+  width: 100%;
+  height: .5rem;
+  background: #f8f8f8;
+}
+.pt-discuss{
+  width: 100%;
+}
+.pt-dc-title{
+  margin: 0;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+ /* border-bottom: 1px solid #cFcFcF;*/
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+}
+
+.pt-alert{
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  p{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 2.4rem;
+    padding: 0 1rem .9rem 2.3rem;
+    font-size: 1.2rem;
+
+    img{
+      width: 1.2rem;
+      height: 1.2rem;
+      display: inline-block;
+    }
+
+  }
+  h6{
+    padding-left: 2.3rem;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    font-weight: bold;
+    img{
+      display: inline-block;
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+}
+
+.pt-alt-pge{
+  padding: 1rem 1rem 0.5rem 1rem;
+ /* border-top:1px solid #cFcFcF;*/
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  box-pack: justify;
+  p{
+    height: 2rem;
+    width: 5rem;
+    img{
+      display: block;
+      width: 1.5rem;
+      height: 1.5rem;
+      border-radius: 0;
+    }
+    span{
+      font-size: 1rem;
+      display: block;
+      padding-left: .3rem;
+      //padding-top: .5rem;
+    }
+  }
+}
+.pt-personage.pt-alt-per{
+  width: 60%;
+}
+
+.btnr{
+  padding: 0 1rem;
+}
+.pt-at-p{
+  padding-top: 0;
+}
+.pt-ft-dw{
+  width: 100%;
+  padding: 0.75rem;
+  position: absolute;
+  left: 0;
+  bottom:0;
+  height: 4.5rem;
+  background: #f8f8f8;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  box-pack: justify;
+  .pt-ft-pt{
+    width: 50%;
+    img{
+      border-radius: 0;
+    }
+    .pt-kit>time{
+      font-size: 0.8rem;
+    }
+    .pt-kit>span{
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+  }
+
+  .pt-ft-btn{
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    line-height:3rem;
+    background: #f85959;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    border-radius: 3px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
