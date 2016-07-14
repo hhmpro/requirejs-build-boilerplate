@@ -1,0 +1,7 @@
+
+static/js/app/posts/test.js
+----------------
+static/js/libs/zepto.js
+static/js/libs/juicer.js
+static/js/common/util.js
+static/js/app/posts/test.js
